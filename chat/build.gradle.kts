@@ -4,8 +4,6 @@ plugins {
     id("io.spring.dependency-management") version "1.1.0"
 }
 
-
-
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-rsocket")
     implementation("org.springframework.boot:spring-boot-starter-webflux")
